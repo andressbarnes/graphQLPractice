@@ -3,17 +3,25 @@
     {
       "id": "23",
       "firstName": "bill",
-      "age": 23
+      "age": 23,
+      "companyId": 1
     },
     {
       "id": "24",
       "firstName": "sam",
-      "age": 21
+      "age": 21,
+      "companyId": 2
     },
     {
       "id": "25",
       "firstName": "steve",
-      "age": 30
+      "age": 30,
+      "companyId": 2
     }
+  ],
+  "companies": [
+    { "id": 1, "name": "Dex", "description": "phone devices" },
+    { "id": 2, "name": "Toys R` Us", "description": "kids toys" },
+    { "id": 3, "name": "Tribe", "description": "clothing store" }
   ]
 }
