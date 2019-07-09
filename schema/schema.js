@@ -37,7 +37,6 @@ const UserType = new GraphQLObjectType({
     company: {
       type: companyType,
       resolve(parentValue, args) {
-        console.log(parentValue.companyId);
         return axios
           .get(`${apiURL}/companies/${parentValue.companyId}`)
           .then(response => response.data);
